@@ -181,7 +181,7 @@ public class TransportFragment extends BaseFragment {
         });
     }
     private void init() {
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.CHINA);
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.CHINA);
         Calendar calendar = Calendar.getInstance();
         Date date = calendar.getTime();
         String now = sdf.format(date);
